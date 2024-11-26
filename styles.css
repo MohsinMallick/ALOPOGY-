@@ -379,3 +379,69 @@ body{
     color: #19043f;
     line-height: 1.6;
 }
+
+@media screen and (max-width: 768px) {
+    /* Make flower elements smaller on smaller screens */
+    .flower__glass {
+        width: 25vmin;
+        height: 35vmin;
+    }
+
+    /* Adjust the flower wrappers for smaller screens */
+    .f-wrapper {
+        left: 40%;
+        bottom: 5vmin;
+    }
+
+    /* Adjust the flower leaf size */
+    .flower__leaf {
+        width: 6vmin;
+        height: 12vmin;
+    }
+
+    /* Adjust the apology letter for smaller screens */
+    .apology-letter {
+        width: 90%;
+    }
+
+    .flower__line {
+        height: 50vmin;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further reduce flower size for smaller devices */
+    .flower__glass {
+        width: 30vmin;
+        height: 40vmin;
+    }
+
+    .f-wrapper {
+        left: 35%;
+        bottom: 6vmin;
+    }
+
+    .flower__leaf {
+        width: 7vmin;
+        height: 14vmin;
+    }
+
+    /* Make apology letter more responsive */
+    .apology-letter {
+        width: 95%;
+    }
+
+    .flower__line {
+        height: 40vmin;
+    }
+}
+
+/* Flower animation for the glass */
+@keyframes flower-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
