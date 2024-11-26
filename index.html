@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology Flower</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Flower animation -->
+   
+
+<div class="flower" onclick="showApology()">
+    <div class="f-wrapper">
+        <div class="flower__line"></div>
+        <div class="f">
+            <div class="flower__leaf flower__leaf--1"></div>
+            <div class="flower__leaf flower__leaf--2"></div>
+            <div class="flower__leaf flower__leaf--3"></div>
+            <div class="flower__leaf flower__leaf--4"></div>
+            <div class="flower__leaf flower__leaf--5"></div>
+            <div class="flower__leaf flower__leaf--6"></div>
+            <div class="flower__leaf flower__leaf--7"></div>
+            <div class="flower__leaf flower__leaf--8 flower__fall-down--yellow"></div>
+        </div>
+    </div>
+
+    <div class="f-wrapper f-wrapper--2">
+        <div class="flower__line"></div>
+        <div class="f">
+            <div class="flower__leaf flower__leaf--1"></div>
+            <div class="flower__leaf flower__leaf--2"></div>
+            <div class="flower__leaf flower__leaf--3"></div>
+            <div class="flower__leaf flower__leaf--4"></div>
+            <div class="flower__leaf flower__leaf--5"></div>
+            <div class="flower__leaf flower__leaf--6"></div>
+            <div class="flower__leaf flower__leaf--7"></div>
+            <div class="flower__leaf flower__leaf--8 flower__fall-down--pink"></div>
+        </div>
+    </div>
+
+    <div class="f-wrapper f-wrapper--3">
+        <div class="flower__line"></div>
+        <div class="f">
+            <div class="flower__leaf flower__leaf--1"></div>
+            <div class="flower__leaf flower__leaf--2"></div>
+            <div class="flower__leaf flower__leaf--3"></div>
+            <div class="flower__leaf flower__leaf--4"></div>
+            <div class="flower__leaf flower__leaf--5"></div>
+            <div class="flower__leaf flower__leaf--6"></div>
+            <div class="flower__leaf flower__leaf--7"></div>
+            <div class="flower__leaf flower__leaf--8 flower__fall-down--purple"></div>
+        </div>
+    </div>
+    <div class="flower__glass"></div>
+</div>
+
+
+    <!-- Apology letter container -->
+    <div id="apologyLetter" class="apology-letter">
+        <h1>I'm Sorry Mahekutuuu Lovee</h1>
+        <p>My cutu love, I apologize for my mistakes. I lob you bohot zyada and bohot bohot bohot zyada. You mean the world to me, and I will do whatever it takes to make things right. Please know that I love you with all my heart. You matter to me the most, i want to cherish humare saare moments and aage jo bhi hum banayeee sab kuch, khoob saare happy happy moments.</p>
+        <p center> Your Cutuu, Mohsuu</p>
+    </div>
+
+    <script>
+        function showApology() {
+            // Show apology letter
+            document.getElementById("apologyLetter").style.display = "block";
+            // Change background image (set your own URL here)
+            document.body.style.backgroundImage = "url('memory.jpg')";
+            //document.body.style.backgroundRepeat = "no-repeat";  // Prevent repeating
+            document.body.style.backgroundSize = "cover";        // Ensure the image covers the entire screen
+            document.body.style.backgroundPosition = "center"; 
+            document.body.style.backgroundSize = "100% auto"; 
+            document.body.style.backgroundSize = "auto 100%";   // Center the image
+
+        }
+    </script>
+</body>
+</html>
